@@ -10,9 +10,9 @@ load_dotenv()
 # =========================================================================
 # CONFIGURATION
 # =========================================================================
-FS_DOMAIN = "alliance.freshservice.com"
-FS_API_KEY = "DbbbetkOM_FKsb-5s7c8"
-FS_LAPTOP_TYPE_ID = "26000466712"
+FS_DOMAIN = os.getenv("Fs_Domain")
+FS_API_KEY = os.getenv("Fs_API_Key")
+FS_LAPTOP_TYPE_ID = os.getenv("Fs_Laptop_Type_ID")
 
 JIRA_URL = os.getenv("Jira_url").rstrip('/')
 JIRA_EML = os.getenv("Jira_Eml")

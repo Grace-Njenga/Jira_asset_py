@@ -16,13 +16,15 @@
 
 import requests
 import urllib3
+import os
+from dotenv import load_dotenv
 
 # Disable SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-FS_DOMAIN = "alliance.freshservice.com"
-FS_API_KEY = "DbbbetkOM_FKsb-5s7c8"
-FS_LAPTOP_TYPE_ID = "26000466712"
+FS_DOMAIN = os.getenv("Fs_Domain")
+FS_API_KEY = os.getenv("Fs_API_Key")
+FS_LAPTOP_TYPE_ID = os.getenv("Fs_Laptop_Type_ID")
 
 def check_specific_fields():
     print("⏳ Scanning Freshservice asset record for specific targets...")

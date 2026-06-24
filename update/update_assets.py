@@ -8,10 +8,13 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 load_dotenv()
 
-# Configuration
-FS_DOMAIN = "alliance.freshservice.com"
-FS_API_KEY = "DbbbetkOM_FKsb-5s7c8"
-FS_LAPTOP_TYPE_ID = "26000466712"
+
+# Configuration Fresh service
+FS_DOMAIN = os.getenv("Fs_Domain")
+FS_API_KEY = os.getenv("Fs_API_Key")
+FS_LAPTOP_TYPE_ID = os.getenv("Fs_Laptop_Type_ID")
+
+# Jira Config 
 JIRA_URL = os.getenv("Jira_url").rstrip('/')
 JIRA_EML = os.getenv("Jira_Eml")
 JIRA_TOKEN = os.getenv("Jira_Token")
