@@ -60,6 +60,10 @@
 # ---------------------------------------------------------------------------
 
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 import requests
 import urllib3
 
@@ -67,8 +71,9 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Source Configuration (Freshservice)
-FS_DOMAIN = "alliance.freshservice.com"
-FS_API_KEY = "DbbbetkOM_FKsb-5s7c8"
+FS_DOMAIN = os.getenv("Fs_Domain")
+FS_API_KEY = os.getenv("Fs_API_Key")
+FS_LAPTOP_TYPE_ID = os.getenv("Fs_Laptop_Type_ID")
 TARGET_ASSET_TYPE_NAME = "Laptop"
 
 def find_type_id_recursively(asset_types, target_name):
