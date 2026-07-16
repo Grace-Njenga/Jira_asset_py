@@ -3,5 +3,8 @@
         "Test_Connections"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "chat.tools.terminal.autoApprove": {
+        "C:/Python314/python.exe": true
+    }
 }

@@ -1,0 +1,26 @@
+Freshservice JSON Key,Data Type,Sample Value
+name,str,CRECIATCO0350TV
+asset_type_id,int,26000466711
+asset_tag,str,ASSET-9915
+impact,str,low
+description,NoneType,None
+end_of_life,NoneType,None
+discovery_enabled,bool,True
+usage_type,str,permanent
+created_by_source,str,Itil::ScanAgent
+created_by_user,NoneType,None
+created_at,str,2026-06-25T15:21:37Z
+last_updated_by_source,str,Itil::ScanAgent
+last_updated_by_user,NoneType,None
+updated_at,str,2026-06-25T15:21:37Z
+sources,List/Array,['Discovery Agent']
+location_id,NoneType,None
+department_id,NoneType,None
+agent_id,NoneType,None
+user_id,NoneType,None
+group_id,NoneType,None
+assigned_on,str,2026-06-25T15:21:00Z
+workspace_id,int,2
+author_type,str,Discovery Agent
+id,int,26003362685
+display_id,int,9915
