@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 # Load variables from .env file
 load_dotenv()
 
+print(">>> DEBUG:", os.getenv("jira_url"))
+
 JIRA_URL = os.getenv("Jira_url")
 JIRA_EMAIL = os.getenv("Jira_Eml")
 JIRA_API_TOKEN = os.getenv("Jira_Token")
