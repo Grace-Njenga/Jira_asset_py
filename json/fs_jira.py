@@ -43,7 +43,8 @@ JIRA_ATTR_IDS = {
     "Other User Responsible": 91,
     "Warranty Expiry Date": 94,
     "Warranty Type": 96,
-    "Warranty": 95
+    "Warranty": 95,
+    "Description":133
 }
 
 # File Export Settings
