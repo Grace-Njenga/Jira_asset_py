@@ -1,0 +1,65 @@
+
+==================================================
+UPDATE-ONLY MIGRATION COMPLETE: 2026-07-24 12:40:37
+==================================================
+[SYNC] Total Updated in Jira:          0
+[SKIP] Not Found in Jira (No Create):  0
+[WARN] Total Skipped (No Identifier):  0
+[FAIL] Total Failed Updates:           0
+==================================================
+
+
+==================================================
+UPDATE-ONLY MIGRATION COMPLETE: 2026-07-24 16:41:07
+==================================================
+[RUN] [STATUS] Aborted run: Freshservice page fetch failed due to repeated connection errors
+[SYNC] Total Updated in Jira:          1962
+[SKIP] Not Found in Jira (No Create):  38
+[WARN] Total Skipped (No Identifier):  0
+[FAIL] Total Failed Updates:           80
+==================================================
+
+
+==================================================
+UPDATE-ONLY MIGRATION COMPLETE: 2026-07-27 16:29:08
+==================================================
+[RUN] [STATUS] Completed run
+[SYNC] Total Updated in Jira:          4217
+[SKIP] Not Found in Jira (No Create):  2
+[WARN] Total Skipped (No Identifier):  0
+[FAIL] Total Failed Updates:           1
+==================================================
+
+
+==================================================
+UPDATE-ONLY MIGRATION COMPLETE: 2026-07-28 08:49:53
+==================================================
+[RUN] [STATUS] Aborted run: Freshservice page fetch failed: HTTP 429
+[SYNC] Total Updated in Jira:          0
+[SKIP] Not Found in Jira (No Create):  0
+[WARN] Total Skipped (No Identifier):  0
+[FAIL] Total Failed Updates:           0
+==================================================
+
+
+==================================================
+UPDATE-ONLY MIGRATION COMPLETE: 2026-07-28 15:59:40
+==================================================
+[RUN] [STATUS] Aborted run: Freshservice page fetch failed due to repeated connection errors
+[SYNC] Total Updated in Jira:          3600
+[SKIP] Not Found in Jira (No Create):  0
+[WARN] Total Skipped (No Identifier):  0
+[FAIL] Total Failed Updates:           0
+==================================================
+
+
+==================================================
+UPDATE-ONLY MIGRATION COMPLETE: 2026-07-30 16:07:52
+==================================================
+[RUN] [STATUS] Completed run
+[SYNC] Total Updated in Jira:          2720
+[SKIP] Not Found in Jira (No Create):  1
+[WARN] Total Skipped (No Identifier):  0
+[FAIL] Total Failed Updates:           0
+==================================================
+
